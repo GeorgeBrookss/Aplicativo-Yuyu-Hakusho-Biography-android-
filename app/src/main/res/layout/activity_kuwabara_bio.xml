@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KuwabaraBio">
+
+    <ImageView
+        android:id="@+id/kazumaBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/kazumabackgrownd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/kazuma"
+        android:layout_width="314dp"
+        android:layout_height="316dp"
+        android:background="@drawable/kazumabio"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    
+    <TextView
+        android:id="@+id/KazumaTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kazuma Kuwabara"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/kazumaBiografia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="324dp"
+        android:fontFamily="sans-serif-black"
+        android:text='Kazuma Kuwabara é um personagem do anime e mangá Yu Yu Hakusho.
+
+Ele é um jovem de 14 anos que dizia ser o bad boy número 1 de Sarayashiki, escola onde estudava, mas não era nada comparado a Yusuke Urameshi. Não é o melhor aluno da escola, mas é um ótimo lutador. Movido por uma desenfreada vontade de vencer Urameshi, sempre o desafia, tendo sua determinação fortalecida ao apanhar de Yusuke. Mesmo assim anseia por um dia vencer e mostrar a todos que ele é o mais forte.
+No Torneio das Trevas era o único humano do "Time Urameshi", fazendo-o aparentar ser mais fraco que os demais. Dono de uma sensibilidade espiritual incrível, tem como principal arma o Lei Ken, sua espada feita de energia espiritual.'
+        android:textColor="@color/white"
+        android:paddingTop="40dp"
+        tools:ignore="HardcodedText"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

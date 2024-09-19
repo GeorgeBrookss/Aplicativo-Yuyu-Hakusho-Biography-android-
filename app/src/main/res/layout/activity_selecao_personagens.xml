@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelecaoPersonagens">
+
+
+    <ImageView
+        android:id="@+id/TelaSelecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selecao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/KuwabaraSelecao"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:background="@drawable/okuyasu"
+        android:text="kuwabara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
+
+        />
+
+    <ImageButton
+        android:id="@+id/KuramaSelecao"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:background="@drawable/bishounen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+    <ImageButton
+        android:id="@+id/HieiSelecao"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:background="@drawable/nanico"
+        android:text="Hiei"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
+
+
+    <ImageButton
+        android:id="@+id/YusukeSelecao"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:background="@drawable/verd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:layout_width="166dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Selecione o Personagem"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Yusuke Urameshi"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/YusukeSelecao"
+        app:layout_constraintTop_toTopOf="@id/YusukeSelecao"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="64dp"
+        app:layout_constraintLeft_toLeftOf="@id/YusukeSelecao"
+        app:layout_constraintRight_toRightOf="@id/YusukeSelecao"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Kazuma Kuwabara"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/KuwabaraSelecao"
+        app:layout_constraintTop_toTopOf="@id/KuwabaraSelecao"
+        app:layout_constraintLeft_toLeftOf="@id/KuwabaraSelecao"
+        app:layout_constraintRight_toRightOf="@id/KuwabaraSelecao"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Yoko Kurama"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/KuramaSelecao"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintLeft_toLeftOf="@id/KuramaSelecao"
+        app:layout_constraintRight_toRightOf="@id/KuramaSelecao"
+        app:layout_constraintTop_toTopOf="@id/KuramaSelecao"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Jaganshi Hiei"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/HieiSelecao"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintLeft_toLeftOf="@id/HieiSelecao"
+        app:layout_constraintRight_toRightOf="@id/HieiSelecao"
+        app:layout_constraintTop_toTopOf="@id/HieiSelecao"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

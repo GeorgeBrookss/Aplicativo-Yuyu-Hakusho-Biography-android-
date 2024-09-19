@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".urameshiBio">
+
+    <ImageView
+        android:id="@+id/urameshibackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/uraback"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/urameshibio"
+        android:layout_width="362dp"
+        android:layout_height="277dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/urabio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/TituloUrameshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Yusuke Urameshi"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+    <TextView
+        android:id="@+id/BiografiaUrameshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-black"
+        android:text='Yusuke Urameshi que estuda na escola de Sarayashiki. Gostava de matar aulas no telhado da escola e sempre tomava broncas de sua "colega" de colégio Keiko Yukimura. Era odiado principalmente pelos professores Iwamoto e Akashi e temido por muitos, não só no colégio, mas em toda a vizinhança. No começo do anime era declarado um mau caráter, mas depois demonstra ser muito melhor do que muitos pensavam dando na verdade a impressão de ser um "mal compreendido". Tem gosto por lutas e acredita que quanto mais forte seu inimigo, mais interessante a luta. Determinado, sua principal arma é o Reigan (霊丸? lit "Esfera Espiritual", na dublagem, adaptado como "Leigan") e a sorte. Possui outros golpes em sua lista, mas sem dúvida é o Reigan o mais conhecido.'
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
